@@ -1,0 +1,14 @@
+{
+  "name": "Re-reader for Google Reader",
+  "version": "1.0",
+  "description": "A better-looking Google Reader",
+  "content_scripts": [
+    {
+      "matches": ["http://*.google.com/reader/*"],
+      "css": ["re-reader.css"]
+    }
+  ],
+  "permissions": [
+    "http://*.google.com/reader/*"
+  ]
+}
