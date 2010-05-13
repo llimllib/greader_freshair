@@ -1,7 +1,7 @@
 {
   "name": "Google Reader Fresh Air",
-  "version": "1.0",
-  "description": "A better-looking Google Reader",
+  "version": "1.0.1",
+  "description": "Google Reader Fresh Air makes Google Reader simpler, more readable, and more attractive",
   "icons": { "16": "freshair_16.png",
              "48": "freshair_48.png",
              "64": "freshair_64.png",
