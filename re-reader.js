@@ -51,7 +51,10 @@ var css = '#gbar, #guser, .gbh, #nav,' +
 '' +
 '.star { background-image: none !important; text-align: center; color: #EEE; text-decoration: none; }' +
 '.star.item-star-active { color: #ED2; }' +
-'.star:after { content: "\\02605";  }'
+'.star:after { content: "\\02605";  }' +
+'' +
+//message area seems to never disappear under this extension, just kill it
+'.message-area { display: none !important; } '
 
 console.log("sending request");
 //chrome.extension.sendRequest({"inject": true}, function(response) { });
