@@ -5,10 +5,10 @@
   "content_scripts": [
     {
       "matches": ["http://*.google.com/reader/*"],
-      "css": ["re-reader.css"]
+      "js": ["re-reader.js"]
     }
   ],
   "permissions": [
-    "http://*.google.com/reader/*"
+    "tabs", "http://*.google.com/reader/*"
   ]
 }
