@@ -49,7 +49,7 @@ var css = '#gbar, #guser, .gbh, #nav,' +
 '.item-body { max-width: 600px; font-size: 18px; line-height: 1.5; font-family: "Georgia"; }' +
 '.item-body a { text-decoration: none; color: #44C; }' +
 '' +
-'.star { background-image: none !important; text-align: center; color: #EEE; text-decoration: none; }' +
+'.star { background-image: none !important; text-decoration: none; display: none !important; }' +
 '.star.item-star-active { color: #ED2; }' +
 '.star:after { content: "\\02605";  }' +
 '' +
